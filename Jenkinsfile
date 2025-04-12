@@ -10,7 +10,7 @@
         
         stage('Build') {
             steps {
-                build 'PES1UG22CS407-1'
+                build 'PES1UG22CS407- 1'
                 sh 'g++ ./main/hello.cpp -o output'
             }
         }
